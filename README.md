@@ -30,7 +30,9 @@
 
 ---
 
-<img width="560" height="362" alt="image" src="https://github.com/user-attachments/assets/a5ed7d6c-2a9c-4270-bd0f-6bef89c67d7a" />
+<p align="center">
+  <img width="560" src="https://github.com/user-attachments/assets/a5ed7d6c-2a9c-4270-bd0f-6bef89c67d7a" alt="Aperçu GestEvent"/>
+</p>
 
 ## Aperçu
 
@@ -349,251 +351,224 @@ Depuis l'écran de connexion, cliquer sur **"Créer un compte"** et renseigner :
 
 ### Connexion — `LoginInterface`
 
-<img width="560" height="362" alt="image" src="https://github.com/user-attachments/assets/c7af2d29-d41a-428d-9174-b1cdbea9f19a" />
-
-
 <p align="center">
-  <img width="500" src="" alt="Fenêtre de connexion — formulaire vide"/>
+  <img width="560" src="https://github.com/user-attachments/assets/c7af2d29-d41a-428d-9174-b1cdbea9f19a" alt="Fenêtre de connexion — formulaire vide"/>
   <br/><em>Formulaire de connexion avec fond photo de salle d'événements, champs Email/Mot de passe et liens de navigation</em>
 </p>
 
-<img width="497" height="278" alt="image" src="https://github.com/user-attachments/assets/a2add7f5-71a6-43cb-8015-47dbfe9ba2c2" />
-
 <p align="center">
-  <img width="500" src="" alt="Fenêtre de connexion — identifiants saisis"/>
+  <img width="560" src="https://github.com/user-attachments/assets/a2add7f5-71a6-43cb-8015-47dbfe9ba2c2" alt="Fenêtre de connexion — identifiants saisis"/>
   <br/><em>Saisie des identifiants avant connexion — redirection automatique selon le rôle (Admin ou Utilisateur)</em>
 </p>
 
 ---
 
 ### Création de compte — `AjoutUtilisateurInterface`
-<img width="450" height="236" alt="image" src="https://github.com/user-attachments/assets/891df211-c4fc-49a6-a975-1b69b5a8a49b" />
 
 <p align="center">
-  <img width="500" src="" alt="Formulaire de création de compte — vide"/>
+  <img width="560" src="https://github.com/user-attachments/assets/891df211-c4fc-49a6-a975-1b69b5a8a49b" alt="Formulaire de création de compte — vide"/>
   <br/><em>Formulaire de création de compte avec 5 champs : Nom, Email, Mot de passe, Date de naissance, Événement préféré</em>
 </p>
-<img width="212" height="233" alt="image" src="https://github.com/user-attachments/assets/f92d7478-f015-4fed-bc0b-db33e2b192a2" />
 
 <p align="center">
-  <img width="350" src="" alt="Validation — champs obligatoires non remplis"/>
+  <img width="560" src="https://github.com/user-attachments/assets/f92d7478-f015-4fed-bc0b-db33e2b192a2" alt="Validation — champs obligatoires non remplis"/>
   <br/><em>Erreur : tous les champs sont obligatoires</em>
 </p>
-<img width="233" height="258" alt="image" src="https://github.com/user-attachments/assets/b84e8b55-8fdd-48e1-a99c-0cd77d0ad11b" />
 
 <p align="center">
-  <img width="350" src="" alt="Validation — format email invalide"/>
+  <img width="560" src="https://github.com/user-attachments/assets/b84e8b55-8fdd-48e1-a99c-0cd77d0ad11b" alt="Validation — format email invalide"/>
   <br/><em>Erreur : l'adresse email doit obligatoirement se terminer par @gmail.com</em>
 </p>
 
-<img width="217" height="240" alt="image" src="https://github.com/user-attachments/assets/8d6f2d5d-0c17-4b53-bcc1-6923fe57a7ad" />
-
 <p align="center">
-  <img width="350" src="" alt="Validation — âge minimum non respecté"/>
+  <img width="560" src="https://github.com/user-attachments/assets/8d6f2d5d-0c17-4b53-bcc1-6923fe57a7ad" alt="Validation — âge minimum non respecté"/>
   <br/><em>Erreur : l'utilisateur doit avoir au moins 6 ans (vérification sur la date de naissance)</em>
 </p>
-<img width="491" height="278" alt="image" src="https://github.com/user-attachments/assets/0f22714e-f5b1-4a0e-9651-ae6afdbb5265" />
+
+<p align="center">
+  <img width="560" src="https://github.com/user-attachments/assets/0f22714e-f5b1-4a0e-9651-ae6afdbb5265" alt="Création de compte réussie"/>
+</p>
 
 ---
 
 ### Réinitialisation du mot de passe — `ResetPasswordInterface`
-<img width="467" height="259" alt="image" src="https://github.com/user-attachments/assets/26adf037-f66e-4b2b-a380-01e1f7e7205e" />
 
 <p align="center">
-  <img width="500" src="" alt="Déclenchement — lien Mot de passe oublié"/>
+  <img width="560" src="https://github.com/user-attachments/assets/26adf037-f66e-4b2b-a380-01e1f7e7205e" alt="Déclenchement — lien Mot de passe oublié"/>
   <br/><em>Étape 1 — Cliquer sur "Mot de passe oublié ?" depuis la page de connexion</em>
 </p>
-<img width="260" height="110" alt="image" src="https://github.com/user-attachments/assets/09c6d334-0eb1-4053-91ed-af0c3f3c2762" />
 
 <p align="center">
-  <img width="500" src="" alt="Email de réinitialisation reçu dans Gmail"/>
+  <img width="560" src="https://github.com/user-attachments/assets/09c6d334-0eb1-4053-91ed-af0c3f3c2762" alt="Email de réinitialisation reçu dans Gmail"/>
   <br/><em>Étape 2 — Email automatique reçu avec le code de réinitialisation à 6 chiffres (SMTP Gmail)</em>
 </p>
-<img width="273" height="226" alt="image" src="https://github.com/user-attachments/assets/773d0b61-2a1a-4041-b504-910574be7bb9" />
 
 <p align="center">
-  <img width="350" src="" alt="Réinitialisation — code invalide"/>
+  <img width="560" src="https://github.com/user-attachments/assets/773d0b61-2a1a-4041-b504-910574be7bb9" alt="Réinitialisation — code invalide"/>
   <br/><em>Étape 3a — Message d'erreur si le code saisi ne correspond pas à celui envoyé</em>
 </p>
-<img width="245" height="225" alt="image" src="https://github.com/user-attachments/assets/ebb999a6-6e06-4a12-8211-3a14c4e84601" />
 
 <p align="center">
-  <img width="350" src="" alt="Réinitialisation — mots de passe non concordants"/>
+  <img width="560" src="https://github.com/user-attachments/assets/ebb999a6-6e06-4a12-8211-3a14c4e84601" alt="Réinitialisation — mots de passe non concordants"/>
   <br/><em>Étape 3b — Erreur si le nouveau mot de passe et sa confirmation ne correspondent pas</em>
 </p>
-<img width="253" height="197" alt="image" src="https://github.com/user-attachments/assets/e444b7bc-a23e-4e04-97e0-2301a8bae682" />
 
 <p align="center">
-  <img width="350" src="" alt="Réinitialisation — succès"/>
+  <img width="560" src="https://github.com/user-attachments/assets/e444b7bc-a23e-4e04-97e0-2301a8bae682" alt="Réinitialisation — succès"/>
   <br/><em>Étape 4 — Confirmation de la réinitialisation réussie ; l'utilisateur peut se reconnecter</em>
 </p>
 
 ---
 
 ### Espace Utilisateur — Tableau de bord (`UserMainApp`)
-<img width="467" height="253" alt="image" src="https://github.com/user-attachments/assets/4802359a-592f-4ff5-8ed0-2a2cbf9d23b8" />
 
 <p align="center">
-  <img width="600" src="" alt="Tableau de bord utilisateur"/>
+  <img width="560" src="https://github.com/user-attachments/assets/4802359a-592f-4ff5-8ed0-2a2cbf9d23b8" alt="Tableau de bord utilisateur"/>
   <br/><em>Tableau de bord utilisateur — menu latéral avec navigation et zone principale dynamique au lancement</em>
 </p>
 
 ---
 
 ### Liste des Événements (Utilisateur) — `EvenementInterface`
-<img width="473" height="254" alt="image" src="https://github.com/user-attachments/assets/5f914aef-f289-43e1-a72e-23e0dcc8dc12" />
 
 <p align="center">
-  <img width="600" src="" alt="Liste complète des événements — vue utilisateur"/>
+  <img width="560" src="https://github.com/user-attachments/assets/5f914aef-f289-43e1-a72e-23e0dcc8dc12" alt="Liste complète des événements — vue utilisateur"/>
   <br/><em>Liste complète des événements avec toutes leurs informations — vue lecture seule côté utilisateur</em>
 </p>
 
 ---
 
 ### Événements Disponibles & Inscription — `InterfaceEvenementsDisponible`
-<img width="469" height="257" alt="image" src="https://github.com/user-attachments/assets/7a313d87-b305-4403-9231-4a334cc96cc2" />
 
 <p align="center">
-  <img width="600" src="" alt="Événements disponibles avec boutons S'inscrire et statut Inscrit"/>
+  <img width="560" src="https://github.com/user-attachments/assets/7a313d87-b305-4403-9231-4a334cc96cc2" alt="Événements disponibles avec boutons S'inscrire et statut Inscrit"/>
   <br/><em>Liste des événements disponibles — bouton "S'inscrire" ou statut "Inscrit" selon l'état de l'utilisateur</em>
 </p>
-<img width="468" height="262" alt="image" src="https://github.com/user-attachments/assets/4eb1cf1d-c147-4cf8-877f-5ed6993e24d5" />
-<img width="575" height="214" alt="image" src="https://github.com/user-attachments/assets/a36ac7b0-8e0f-4370-99a5-1d83d937a50f" />
 
 <p align="center">
-  <img width="500" src="" alt="Confirmation d'inscription réussie"/>
+  <img width="560" src="https://github.com/user-attachments/assets/4eb1cf1d-c147-4cf8-877f-5ed6993e24d5" alt="Confirmation d'inscription"/>
+</p>
+
+<p align="center">
+  <img width="560" src="https://github.com/user-attachments/assets/a36ac7b0-8e0f-4370-99a5-1d83d937a50f" alt="Confirmation d'inscription réussie"/>
   <br/><em>Confirmation instantanée après inscription — la place est décomptée en temps réel</em>
 </p>
-<img width="662" height="264" alt="image" src="https://github.com/user-attachments/assets/e820d3e5-64ca-41f0-8fab-ff1b35e8c37d" />
 
 <p align="center">
-  <img width="500" src="" alt="Email de confirmation d'inscription reçu dans Gmail"/>
+  <img width="560" src="https://github.com/user-attachments/assets/e820d3e5-64ca-41f0-8fab-ff1b35e8c37d" alt="Email de confirmation d'inscription reçu dans Gmail"/>
   <br/><em>Email de confirmation automatique envoyé par "Équipe Événements" après chaque inscription réussie</em>
 </p>
 
 ---
 
 ### Mes Événements Réservés — `EvenementsUtilisateurInterface`
-<img width="446" height="248" alt="image" src="https://github.com/user-attachments/assets/3c41726c-af42-4e90-a2fc-d67d37a7813f" />
 
 <p align="center">
-  <img width="600" src="" alt="Mes événements réservés avec bouton Supprimer"/>
+  <img width="560" src="https://github.com/user-attachments/assets/3c41726c-af42-4e90-a2fc-d67d37a7813f" alt="Mes événements réservés avec bouton Supprimer"/>
   <br/><em>Liste des événements auxquels l'utilisateur est inscrit — bouton "Supprimer" pour se désinscrire et libérer une place</em>
 </p>
 
 ---
 
 ### Mon Profil (Utilisateur) — `ProfilUtilisateurInterface`
-<img width="451" height="252" alt="image" src="https://github.com/user-attachments/assets/1e32e992-cf73-4b8d-92ba-29cf88282327" />
 
 <p align="center">
-  <img width="500" src="" alt="Formulaire Mon Profil — espace utilisateur"/>
+  <img width="560" src="https://github.com/user-attachments/assets/1e32e992-cf73-4b8d-92ba-29cf88282327" alt="Formulaire Mon Profil — espace utilisateur"/>
   <br/><em>Formulaire de profil pré-rempli avec les données du compte connecté — modifications synchronisées en base</em>
 </p>
 
 ---
 
 ### Espace Administrateur — Tableau de bord (`MainApp`)
-<img width="446" height="242" alt="image" src="https://github.com/user-attachments/assets/6f738c55-9b06-41d4-97e5-f0f89bfc35a6" />
 
 <p align="center">
-  <img width="600" src="" alt="Tableau de bord administrateur"/>
+  <img width="560" src="https://github.com/user-attachments/assets/6f738c55-9b06-41d4-97e5-f0f89bfc35a6" alt="Tableau de bord administrateur"/>
   <br/><em>Tableau de bord administrateur — menu latéral complet avec 9 sections de gestion</em>
 </p>
 
 ---
 
 ### Gestion des Utilisateurs (Admin) — `UtilisateurInterface`
-<img width="455" height="235" alt="image" src="https://github.com/user-attachments/assets/53cf27d3-45b0-4996-a18f-940c9a84569a" />
 
 <p align="center">
-  <img width="700" src="" alt="Gestion des utilisateurs — vue administrateur"/>
+  <img width="560" src="https://github.com/user-attachments/assets/53cf27d3-45b0-4996-a18f-940c9a84569a" alt="Gestion des utilisateurs — vue administrateur"/>
   <br/><em>Liste complète des utilisateurs avec informations détaillées — suppression en cascade des inscriptions associées</em>
 </p>
 
 ---
 
 ### Ajouter un Utilisateur (Admin) — `AjoutUtilisateurInterface`
-<img width="449" height="238" alt="image" src="https://github.com/user-attachments/assets/585d70e4-6d61-4814-97ed-481a65a0998c" />
 
 <p align="center">
-  <img width="500" src="" alt="Formulaire Ajouter un utilisateur — vue administrateur"/>
+  <img width="560" src="https://github.com/user-attachments/assets/585d70e4-6d61-4814-97ed-481a65a0998c" alt="Formulaire Ajouter un utilisateur — vue administrateur"/>
   <br/><em>Formulaire admin d'ajout d'utilisateur avec sélection du rôle — mêmes validations que l'inscription publique</em>
 </p>
 
 ---
 
 ### Gestion des Événements (Admin) — `EvenementInter`
-<img width="439" height="241" alt="image" src="https://github.com/user-attachments/assets/ae3a1cb5-33b4-445b-b12d-4f1d74067295" />
 
 <p align="center">
-  <img width="700" src="" alt="Gestion des événements — vue administrateur"/>
+  <img width="560" src="https://github.com/user-attachments/assets/ae3a1cb5-33b4-445b-b12d-4f1d74067295" alt="Gestion des événements — vue administrateur"/>
   <br/><em>Liste admin des événements avec bouton "Annuler" — déclenche suppression + email d'annulation automatique à tous les inscrits</em>
 </p>
-<img width="356" height="134" alt="image" src="https://github.com/user-attachments/assets/06a733c0-ff47-4aaf-a5b5-1d7d3eda54ea" />
 
 <p align="center">
-  <img width="500" src="" alt="Email d'annulation automatique reçu par les participants"/>
+  <img width="560" src="https://github.com/user-attachments/assets/06a733c0-ff47-4aaf-a5b5-1d7d3eda54ea" alt="Email d'annulation automatique reçu par les participants"/>
   <br/><em>Email d'annulation envoyé automatiquement à chaque participant inscrit lors de la suppression d'un événement</em>
 </p>
 
 ---
 
 ### Ajouter un Événement (Admin) — `AjoutEvenementInterface`
-<img width="525" height="286" alt="image" src="https://github.com/user-attachments/assets/8094671b-8fc0-4d33-b060-355b631a0f82" />
 
 <p align="center">
-  <img width="500" src="" alt="Formulaire Ajouter un événement — vue administrateur"/>
+  <img width="560" src="https://github.com/user-attachments/assets/8094671b-8fc0-4d33-b060-355b631a0f82" alt="Formulaire Ajouter un événement — vue administrateur"/>
   <br/><em>Formulaire d'ajout d'événement avec validation : champs requis, capacité numérique, unicité du nom</em>
 </p>
 
 ---
 
 ### Événements Disponibles (Admin) — `InterfaceEvenementsDispo`
-<img width="524" height="281" alt="image" src="https://github.com/user-attachments/assets/9762eef9-072a-47bc-8224-41776fd8ef17" />
 
 <p align="center">
-  <img width="700" src="" alt="Événements disponibles — vue administrateur"/>
+  <img width="560" src="https://github.com/user-attachments/assets/9762eef9-072a-47bc-8224-41776fd8ef17" alt="Événements disponibles — vue administrateur"/>
   <br/><em>Vue admin des événements disponibles avec suivi du nombre de places restantes en temps réel</em>
 </p>
 
 ---
 
 ### Inscriptions aux Événements (Admin) — `InscriptionEvenementInterface`
-<img width="524" height="276" alt="image" src="https://github.com/user-attachments/assets/dd52cef9-7b06-4941-94fb-e76d9dd7ed55" />
 
 <p align="center">
-  <img width="600" src="" alt="Vue croisée Inscriptions / Événements"/>
+  <img width="560" src="https://github.com/user-attachments/assets/dd52cef9-7b06-4941-94fb-e76d9dd7ed55" alt="Vue croisée Inscriptions / Événements"/>
   <br/><em>Vue croisée de toutes les inscriptions avec recherche par nom d'utilisateur ou d'événement</em>
 </p>
 
 ---
 
 ### Inscription Manuelle (Admin) — `InscriptionFormInterface`
-<img width="525" height="282" alt="image" src="https://github.com/user-attachments/assets/d4fc991c-2308-4614-8cde-8ae2d8471305" />
 
 <p align="center">
-  <img width="500" src="" alt="Formulaire d'inscription manuelle par l'administrateur"/>
+  <img width="560" src="https://github.com/user-attachments/assets/d4fc991c-2308-4614-8cde-8ae2d8471305" alt="Formulaire d'inscription manuelle par l'administrateur"/>
   <br/><em>L'administrateur peut inscrire manuellement un utilisateur à un événement — email de confirmation envoyé automatiquement</em>
 </p>
 
 ---
 
 ### Statistiques Animées (Admin) — `StatistiquesInterface`
-<img width="527" height="280" alt="image" src="https://github.com/user-attachments/assets/2fd2c262-a12e-496f-8eff-bccfd3ea5fda" />
 
 <p align="center">
-  <img width="600" src="" alt="Tableau de bord des statistiques avec graphiques animés"/>
+  <img width="560" src="https://github.com/user-attachments/assets/2fd2c262-a12e-496f-8eff-bccfd3ea5fda" alt="Tableau de bord des statistiques avec graphiques animés"/>
   <br/><em>Graphiques circulaires animés (FadeTransition + Timeline JavaFX) : taux d'activité et de réservation en temps réel</em>
 </p>
 
 ---
 
 ### Mon Profil (Admin) — `ProfilUtilisateurInterface`
-<img width="526" height="277" alt="image" src="https://github.com/user-attachments/assets/f44c2f66-a2af-4423-abc6-cf3e139a6c9b" />
 
 <p align="center">
-  <img width="500" src="" alt="Formulaire Mon Profil — espace administrateur"/>
+  <img width="560" src="https://github.com/user-attachments/assets/f44c2f66-a2af-4423-abc6-cf3e139a6c9b" alt="Formulaire Mon Profil — espace administrateur"/>
   <br/><em>Formulaire de profil administrateur — mêmes fonctionnalités de modification que l'espace utilisateur</em>
 </p>
 
