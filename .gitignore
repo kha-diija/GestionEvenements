@@ -1,0 +1,15 @@
+# Fichiers de configuration d'Eclipse à ignorer
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~
+.classpath
+.project
+.settings/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
